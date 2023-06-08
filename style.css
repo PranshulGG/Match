@@ -46,6 +46,42 @@ body {
             flex-direction: column;
             
 }
+.btnop{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 30px;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: px;
+   position: absolute;
+   left: 350px;
+   top: 1540px;
+   font-family: Days One;
+}
+.btn--gradient {
+  animation: gradient 4s ease infinite;
+  background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 1000% 400%;
+}
+@keyframes gradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 
 /* end of global */
